@@ -1,5 +1,4 @@
-// Global variables
-let apiBaseUrl = "/api";
+const apiBaseUrl = "/api";
 let currentPage = 1;
 let currentKeyword = "";
 let currentProductId = null;
@@ -7,10 +6,11 @@ let currentReviewPage = 1;
 let reviewsData = {};
 let productModal = null;
 let sentimentChart = null;
-
 document.addEventListener("DOMContentLoaded", function () {
-    // Initialize Bootstrap Modal
-    productModal = new bootstrap.Modal(document.getElementById("productModal"));
+
+    productModal = new bootstrap.Modal(
+        document.getElementById("productModal")
+    );
 
     // Load initial products
     loadProducts();
@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
             currentPage = 1;
             loadProducts();
         });
-
     document
         .getElementById("searchInput")
         .addEventListener("keypress", function (e) {
@@ -44,4 +43,5 @@ document.addEventListener("DOMContentLoaded", function () {
             currentReviewPage++;
             loadReviews(currentProductId, currentReviewPage, false);
         });
+
 });

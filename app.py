@@ -149,7 +149,7 @@ def index():
 @app.route('/api/products', methods=['GET'])
 def get_products():
     keyword = request.args.get('keyword', 'all')
-    page = int(request.args.get('page', 20))
+    page = int(request.args.get('page', 1))
     limit = int(request.args.get('limit', 30))
 
     # Build URL and parameters
