@@ -1,0 +1,137 @@
+:root {
+    --tiki-blue: #1a94ff;
+    --tiki-dark-blue: #0d5cb6;
+    --positive: #00ab56;
+    --neutral: #ffc400;
+    --negative: #ff424e;
+}
+
+body {
+    background-color: #f5f5fa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--tiki-blue) !important;
+}
+
+.btn-primary {
+    background-color: var(--tiki-blue);
+    border-color: var(--tiki-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--tiki-dark-blue);
+    border-color: var(--tiki-dark-blue);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.product-image img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.product-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 48px;
+}
+
+.product-price {
+    color: var(--negative);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.rating-stars {
+    color: var(--neutral);
+}
+
+.sentiment-positive {
+    background-color: rgba(0, 171, 86, 0.1);
+    color: var(--positive);
+}
+
+.sentiment-neutral {
+    background-color: rgba(255, 196, 0, 0.1);
+    color: var(--neutral);
+}
+
+.sentiment-negative {
+    background-color: rgba(255, 66, 78, 0.1);
+    color: var(--negative);
+}
+
+.sentiment-chart-container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.model-badge {
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Loading spinner */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.recommendation-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+}
+
+.recommendation-scroll .card {
+    display: inline-block;
+    width: 180px;
+    margin-right: 15px;
+    white-space: normal;
+}
+
+.recommendation-scroll .product-image {
+    height: 150px;
+}
+
+/* Custom progress bar colors */
+.progress-bar-positive {
+    background-color: var(--positive);
+}
+
+.progress-bar-neutral {
+    background-color: var(--neutral);
+}
+
+.progress-bar-negative {
+    background-color: var(--negative);
+}
