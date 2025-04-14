@@ -19,7 +19,7 @@ function loadProducts() {
     } else {
         sectionTitle.textContent = "Sản phẩm nổi bật";
     }
-
+    // Clear previous pagination
     // Fetch products from API
     let url = `${apiBaseUrl}/products?page=${currentPage}&limit=30`;
     if (currentKeyword) {

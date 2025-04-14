@@ -10,6 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
+from product_recommendation import integrate_with_flask_app
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
@@ -125,8 +126,7 @@ except Exception as e:
 # Constants
 MAX_LEN = 100  # For deep learning model
 
-# Cache for product recommendations
-product_recommendations_cache = {}
+
 
 def get_with_retry(url, params=None, max_retries=3, delay=1):
     """Make a GET request with retry logic"""
@@ -233,22 +233,6 @@ def get_reviews(product_id):
 
 
 
-@app.route('/api/recommendations/<int:product_id>', methods=['GET'])
-def get_recommendations(product_id):
-    # Check if we have cached recommendations
-    if product_id in product_recommendations_cache:
-        return jsonify(product_recommendations_cache[product_id])
-
-    # If not in cache, get recommendations from Tiki API
-    url = f"{TIKI_API_BASE}/products/{product_id}/recommendations"
-
-    try:
-        data = get_with_retry(url)
-        # Cache the results
-        product_recommendations_cache[product_id] = data
-        return jsonify(data)
-    except Exception as e:
-        return jsonify({"error": str(e), "status": "error"}), 500
 
 @app.route('/api/analyze-sentiment', methods=['POST'])
 def api_analyze_sentiment():
@@ -423,4 +407,5 @@ def api_test():
 
 # Run the app
 if __name__ == '__main__':
+    integrate_with_flask_app(app)
     app.run(debug=True)

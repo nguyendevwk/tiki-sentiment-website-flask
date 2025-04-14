@@ -1,0 +1,584 @@
+2025-04-14 14:18:00,096 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:18:00,097 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:18:00,098 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:18:03,714 - DEBUG - Initializing TikiService
+2025-04-14 14:18:03,715 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:18:03,715 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:18:03,716 - DEBUG - Loading FAISS index
+2025-04-14 14:18:03,723 - DEBUG - Loading product DataFrame
+2025-04-14 14:18:03,745 - DEBUG - Loading product_ids
+2025-04-14 14:18:03,747 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:18:03,747 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:18:03,747 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:19:48,119 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:19:48,119 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:19:48,120 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:19:51,788 - DEBUG - Initializing TikiService
+2025-04-14 14:19:51,788 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:19:51,788 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:19:51,789 - DEBUG - Loading FAISS index
+2025-04-14 14:19:51,796 - DEBUG - Loading product DataFrame
+2025-04-14 14:19:51,821 - DEBUG - Loading product_ids
+2025-04-14 14:19:51,822 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:19:51,822 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:19:51,822 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:20:45,844 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:20:45,844 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:20:45,845 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:20:49,207 - DEBUG - Initializing TikiService
+2025-04-14 14:20:49,207 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:20:49,208 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:20:49,208 - DEBUG - Loading FAISS index
+2025-04-14 14:20:49,215 - DEBUG - Loading product DataFrame
+2025-04-14 14:20:49,239 - DEBUG - Loading product_ids
+2025-04-14 14:20:49,240 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:20:49,240 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:20:49,240 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:21:32,867 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:21:32,868 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:21:32,868 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:21:37,449 - DEBUG - Initializing TikiService
+2025-04-14 14:21:37,450 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:21:37,450 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:21:37,451 - DEBUG - Loading FAISS index
+2025-04-14 14:21:37,458 - DEBUG - Loading product DataFrame
+2025-04-14 14:21:37,482 - DEBUG - Loading product_ids
+2025-04-14 14:21:37,484 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:21:37,485 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:21:37,486 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:24:44,498 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:24:44,499 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:24:44,499 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:24:48,085 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:24:48,086 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:24:48,086 - DEBUG - Loading FAISS index
+2025-04-14 14:24:48,095 - DEBUG - Loading product DataFrame
+2025-04-14 14:24:48,118 - DEBUG - Loading product_ids
+2025-04-14 14:24:48,119 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:24:48,120 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:24:48,121 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:25:07,568 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:25:07,569 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:25:07,569 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:25:11,076 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:25:11,076 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:25:11,077 - DEBUG - Loading FAISS index
+2025-04-14 14:25:11,084 - DEBUG - Loading product DataFrame
+2025-04-14 14:25:11,106 - DEBUG - Loading product_ids
+2025-04-14 14:25:11,107 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:25:11,108 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:25:11,108 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:25:11,515 - DEBUG - --- Processing request for /api/recommendations/199104980 ---
+2025-04-14 14:25:11,516 - DEBUG - Limit set to: 10
+2025-04-14 14:25:11,517 - DEBUG - --- Starting get_similar_products_by_id for product_id: 199104980 ---
+2025-04-14 14:25:11,518 - DEBUG - Checking if product_id 199104980 exists in product_ids
+2025-04-14 14:25:11,519 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:25:11,519 - DEBUG - Fetching product details from Tiki API for product_id: 199104980
+2025-04-14 14:25:11,939 - DEBUG - Extracting product details
+2025-04-14 14:25:11,939 - DEBUG - Name: Laptop HP 240 G9 6L1Y1PA |i5-1235U|8GB RAM |256GB SSD |14"FHD|Win11 - Hàng Chính Hãng
+2025-04-14 14:25:11,946 - DEBUG - Brand_name: HP
+2025-04-14 14:25:11,949 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:25:12,053 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:25:12,053 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:25:12,059 - DEBUG - FAISS search results - distances: [[1.6140645135546972e-13, 0.13221943378448486, 0.22469723224639893, 0.27136141061782837, 0.3160303235054016, 0.32161945104599, 0.33242177963256836, 0.341091513633728, 0.3448653221130371, 0.35070186853408813, 0.3699113428592682]]
+2025-04-14 14:25:12,060 - DEBUG - FAISS search results - indices: [[56, 264, 1457, 301, 268, 73, 165, 107, 128, 1761, 1313]]
+2025-04-14 14:25:12,061 - DEBUG - Filtered result_product_ids: [198592225, 199692559, 189466548, 248807159, 277363258, 213867594, 248912686, 195902379, 195901063, 214863343]
+2025-04-14 14:25:12,061 - DEBUG - Checking product_id 198592225 in DataFrame
+2025-04-14 14:25:12,064 - DEBUG - Added product 198592225 to similar_products
+2025-04-14 14:25:12,065 - DEBUG - Checking product_id 199692559 in DataFrame
+2025-04-14 14:25:12,066 - DEBUG - Added product 199692559 to similar_products
+2025-04-14 14:25:12,067 - DEBUG - Checking product_id 189466548 in DataFrame
+2025-04-14 14:25:12,068 - DEBUG - Added product 189466548 to similar_products
+2025-04-14 14:25:12,069 - DEBUG - Checking product_id 248807159 in DataFrame
+2025-04-14 14:25:12,070 - DEBUG - Added product 248807159 to similar_products
+2025-04-14 14:25:12,071 - DEBUG - Checking product_id 277363258 in DataFrame
+2025-04-14 14:25:12,073 - DEBUG - Added product 277363258 to similar_products
+2025-04-14 14:25:12,074 - DEBUG - Checking product_id 213867594 in DataFrame
+2025-04-14 14:25:12,075 - DEBUG - Added product 213867594 to similar_products
+2025-04-14 14:25:12,076 - DEBUG - Checking product_id 248912686 in DataFrame
+2025-04-14 14:25:12,077 - DEBUG - Added product 248912686 to similar_products
+2025-04-14 14:25:12,078 - DEBUG - Checking product_id 195902379 in DataFrame
+2025-04-14 14:25:12,080 - DEBUG - Added product 195902379 to similar_products
+2025-04-14 14:25:12,080 - DEBUG - Checking product_id 195901063 in DataFrame
+2025-04-14 14:25:12,082 - DEBUG - Added product 195901063 to similar_products
+2025-04-14 14:25:12,083 - DEBUG - Checking product_id 214863343 in DataFrame
+2025-04-14 14:25:12,084 - DEBUG - Added product 214863343 to similar_products
+2025-04-14 14:25:12,085 - DEBUG - Final similar_products count: 10
+2025-04-14 14:25:12,085 - DEBUG - Final similar_products: [198592225, 199692559, 189466548, 248807159, 277363258, 213867594, 248912686, 195902379, 195901063, 214863343]
+2025-04-14 14:25:12,086 - DEBUG - --- Completed get_similar_products_by_id for product_id: 199104980 ---
+2025-04-14 14:25:12,087 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:25:12,088 - DEBUG - Preparing response with similar products
+2025-04-14 14:25:12,093 - DEBUG - --- Completed request for /api/recommendations/199104980 ---
+2025-04-14 14:25:21,230 - DEBUG - --- Processing request for /api/recommendations/276250848 ---
+2025-04-14 14:25:21,231 - DEBUG - Limit set to: 10
+2025-04-14 14:25:21,233 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:25:21,233 - DEBUG - Checking if product_id 276250848 exists in product_ids
+2025-04-14 14:25:21,234 - DEBUG - Product_id exists in vector database: False
+2025-04-14 14:25:21,234 - DEBUG - Fetching product details from Tiki API for product_id: 276250848
+2025-04-14 14:25:22,014 - DEBUG - Extracting product details
+2025-04-14 14:25:22,026 - DEBUG - Brand_name: Samsung
+2025-04-14 14:25:22,030 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:25:22,121 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:25:22,122 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:25:22,124 - DEBUG - FAISS search results - distances: [[0.17917698621749878, 0.18270835280418396, 0.18300119042396545, 0.19379845261573792, 0.20418068766593933, 0.20717504620552063, 0.21090546250343323, 0.21571066975593567, 0.21701058745384216, 0.22684380412101746, 0.23874607682228088]]
+2025-04-14 14:25:22,124 - DEBUG - FAISS search results - indices: [[2204, 33, 2024, 224, 123, 242, 318, 228, 23, 204, 83]]
+2025-04-14 14:25:22,125 - DEBUG - Filtered result_product_ids: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:25:22,126 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:25:22,132 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:25:22,136 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:25:22,142 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:25:22,143 - DEBUG - Checking product_id 273029857 in DataFrame
+2025-04-14 14:25:22,153 - DEBUG - Added product 273029857 to similar_products
+2025-04-14 14:25:22,155 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:25:22,157 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:25:22,158 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:25:22,162 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:25:22,163 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:25:22,165 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:25:22,166 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:25:22,170 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:25:22,172 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:25:22,178 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:25:22,181 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:25:22,184 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:25:22,185 - DEBUG - Checking product_id 273610105 in DataFrame
+2025-04-14 14:25:22,188 - DEBUG - Added product 273610105 to similar_products
+2025-04-14 14:25:22,189 - DEBUG - Final similar_products count: 10
+2025-04-14 14:25:22,191 - DEBUG - Final similar_products: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:25:22,192 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:25:22,192 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:25:22,194 - DEBUG - Preparing response with similar products
+2025-04-14 14:25:22,200 - DEBUG - --- Completed request for /api/recommendations/276250848 ---
+2025-04-14 14:25:22,207 - DEBUG - --- Processing request for /api/recommendations/276250848 ---
+2025-04-14 14:25:22,209 - DEBUG - Limit set to: 10
+2025-04-14 14:25:22,210 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:25:22,211 - DEBUG - Checking if product_id 276250848 exists in product_ids
+2025-04-14 14:25:22,212 - DEBUG - Product_id exists in vector database: False
+2025-04-14 14:25:22,213 - DEBUG - Fetching product details from Tiki API for product_id: 276250848
+2025-04-14 14:25:22,500 - DEBUG - Extracting product details
+2025-04-14 14:25:22,591 - DEBUG - Brand_name: Samsung
+2025-04-14 14:25:22,598 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:25:22,666 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:25:22,667 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:25:22,670 - DEBUG - FAISS search results - distances: [[0.17917698621749878, 0.18270835280418396, 0.18300119042396545, 0.19379845261573792, 0.20418068766593933, 0.20717504620552063, 0.21090546250343323, 0.21571066975593567, 0.21701058745384216, 0.22684380412101746, 0.23874607682228088]]
+2025-04-14 14:25:22,671 - DEBUG - FAISS search results - indices: [[2204, 33, 2024, 224, 123, 242, 318, 228, 23, 204, 83]]
+2025-04-14 14:25:22,672 - DEBUG - Filtered result_product_ids: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:25:22,672 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:25:22,674 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:25:22,675 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:25:22,677 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:25:22,678 - DEBUG - Checking product_id 273029857 in DataFrame
+2025-04-14 14:25:22,679 - DEBUG - Added product 273029857 to similar_products
+2025-04-14 14:25:22,680 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:25:22,682 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:25:22,683 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:25:22,685 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:25:22,685 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:25:22,687 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:25:22,688 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:25:22,689 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:25:22,690 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:25:22,692 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:25:22,692 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:25:22,694 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:25:22,695 - DEBUG - Checking product_id 273610105 in DataFrame
+2025-04-14 14:25:22,696 - DEBUG - Added product 273610105 to similar_products
+2025-04-14 14:25:22,697 - DEBUG - Final similar_products count: 10
+2025-04-14 14:25:22,698 - DEBUG - Final similar_products: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:25:22,699 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:25:22,700 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:25:22,701 - DEBUG - Preparing response with similar products
+2025-04-14 14:25:22,706 - DEBUG - --- Completed request for /api/recommendations/276250848 ---
+2025-04-14 14:26:11,252 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:26:11,252 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:26:11,253 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:26:14,616 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:26:14,616 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:26:14,617 - DEBUG - Loading FAISS index
+2025-04-14 14:26:14,625 - DEBUG - Loading product DataFrame
+2025-04-14 14:26:14,647 - DEBUG - Loading product_ids
+2025-04-14 14:26:14,648 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:26:14,648 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:26:14,649 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:29:31,649 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:29:31,650 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:29:31,651 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:29:35,310 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:29:35,310 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:29:35,311 - DEBUG - Loading FAISS index
+2025-04-14 14:29:35,322 - DEBUG - Loading product DataFrame
+2025-04-14 14:29:35,358 - DEBUG - Loading product_ids
+2025-04-14 14:29:35,360 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:29:35,361 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:29:35,362 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:32:37,820 - DEBUG - --- Initializing SearchService ---
+2025-04-14 14:32:37,821 - DEBUG - Current working directory: D:\MonThu6
+2025-04-14 14:32:37,822 - DEBUG - Loading SentenceTransformer model
+2025-04-14 14:32:41,466 - DEBUG - Vector database directory: D:\MonThu6\api\..\vector_db
+2025-04-14 14:32:41,467 - DEBUG - Checking vector database files: ['D:\\MonThu6\\api\\..\\vector_db\\product_index.faiss', 'D:\\MonThu6\\api\\..\\vector_db\\product_data.pkl', 'D:\\MonThu6\\api\\..\\vector_db\\product_ids.pkl']
+2025-04-14 14:32:41,468 - DEBUG - Loading FAISS index
+2025-04-14 14:32:41,476 - DEBUG - Loading product DataFrame
+2025-04-14 14:32:41,504 - DEBUG - Loading product_ids
+2025-04-14 14:32:41,505 - DEBUG - Vector database loaded. Total products: 8587
+2025-04-14 14:32:41,506 - DEBUG - DataFrame shape: (8587, 12)
+2025-04-14 14:32:41,506 - DEBUG - FAISS index ntotal: 8587
+2025-04-14 14:32:41,999 - DEBUG - --- Processing request for /api/recommendations/276250848 ---
+2025-04-14 14:32:42,000 - DEBUG - Limit set to: 10
+2025-04-14 14:32:42,002 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:32:42,008 - DEBUG - Checking if product_id 276250848 exists in product_ids
+2025-04-14 14:32:42,009 - DEBUG - Product_id exists in vector database: False
+2025-04-14 14:32:42,010 - DEBUG - Fetching product details from Tiki API for product_id: 276250848
+2025-04-14 14:32:42,397 - DEBUG - Extracting product details
+2025-04-14 14:32:42,414 - DEBUG - Brand_name: Samsung
+2025-04-14 14:32:42,419 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:32:42,557 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:32:42,557 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:32:42,615 - DEBUG - FAISS search results - distances: [[0.17917698621749878, 0.18270835280418396, 0.18300119042396545, 0.19379845261573792, 0.20418068766593933, 0.20717504620552063, 0.21090546250343323, 0.21571066975593567, 0.21701058745384216, 0.22684380412101746, 0.23874607682228088]]
+2025-04-14 14:32:42,727 - DEBUG - FAISS search results - indices: [[2204, 33, 2024, 224, 123, 242, 318, 228, 23, 204, 83]]
+2025-04-14 14:32:42,732 - DEBUG - Filtered result_product_ids: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:32:42,752 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:32:42,785 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:32:42,791 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:32:42,794 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:32:42,812 - DEBUG - Checking product_id 273029857 in DataFrame
+2025-04-14 14:32:42,821 - DEBUG - Added product 273029857 to similar_products
+2025-04-14 14:32:42,822 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:32:42,825 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:32:42,827 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:32:42,830 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:32:42,831 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:32:42,839 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:32:42,843 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:32:42,853 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:32:42,854 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:32:42,867 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:32:42,870 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:32:42,872 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:32:42,873 - DEBUG - Checking product_id 273610105 in DataFrame
+2025-04-14 14:32:42,877 - DEBUG - Added product 273610105 to similar_products
+2025-04-14 14:32:42,878 - DEBUG - Final similar_products count: 10
+2025-04-14 14:32:42,880 - DEBUG - Final similar_products: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:32:42,881 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:32:42,882 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:32:42,884 - DEBUG - Preparing response with similar products
+2025-04-14 14:32:42,903 - DEBUG - --- Completed request for /api/recommendations/276250848 ---
+2025-04-14 14:34:01,946 - DEBUG - --- Processing request for /api/recommendations/276250848 ---
+2025-04-14 14:34:01,951 - DEBUG - Limit set to: 10
+2025-04-14 14:34:01,953 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:34:01,954 - DEBUG - Checking if product_id 276250848 exists in product_ids
+2025-04-14 14:34:01,955 - DEBUG - Product_id exists in vector database: False
+2025-04-14 14:34:01,956 - DEBUG - Fetching product details from Tiki API for product_id: 276250848
+2025-04-14 14:34:02,675 - DEBUG - Extracting product details
+2025-04-14 14:34:02,701 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:02,706 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:02,786 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:02,787 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:02,790 - DEBUG - FAISS search results - distances: [[0.17917698621749878, 0.18270835280418396, 0.18300119042396545, 0.19379845261573792, 0.20418068766593933, 0.20717504620552063, 0.21090546250343323, 0.21571066975593567, 0.21701058745384216, 0.22684380412101746, 0.23874607682228088]]
+2025-04-14 14:34:02,791 - DEBUG - FAISS search results - indices: [[2204, 33, 2024, 224, 123, 242, 318, 228, 23, 204, 83]]
+2025-04-14 14:34:02,792 - DEBUG - Filtered result_product_ids: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:34:02,793 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:02,796 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:02,798 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:02,801 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:02,802 - DEBUG - Checking product_id 273029857 in DataFrame
+2025-04-14 14:34:02,804 - DEBUG - Added product 273029857 to similar_products
+2025-04-14 14:34:02,805 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:34:02,808 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:34:02,809 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:02,812 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:02,812 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:02,815 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:02,816 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:02,818 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:02,819 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:02,822 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:02,822 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:02,825 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:02,826 - DEBUG - Checking product_id 273610105 in DataFrame
+2025-04-14 14:34:02,828 - DEBUG - Added product 273610105 to similar_products
+2025-04-14 14:34:02,829 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:02,829 - DEBUG - Final similar_products: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:34:02,831 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:34:02,832 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:02,834 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:02,842 - DEBUG - --- Completed request for /api/recommendations/276250848 ---
+2025-04-14 14:34:02,852 - DEBUG - --- Processing request for /api/recommendations/276250848 ---
+2025-04-14 14:34:02,855 - DEBUG - Limit set to: 10
+2025-04-14 14:34:02,856 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:34:02,858 - DEBUG - Checking if product_id 276250848 exists in product_ids
+2025-04-14 14:34:02,860 - DEBUG - Product_id exists in vector database: False
+2025-04-14 14:34:02,862 - DEBUG - Fetching product details from Tiki API for product_id: 276250848
+2025-04-14 14:34:03,154 - DEBUG - Extracting product details
+2025-04-14 14:34:03,168 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:03,172 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:03,244 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:03,245 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:03,247 - DEBUG - FAISS search results - distances: [[0.17917698621749878, 0.18270835280418396, 0.18300119042396545, 0.19379845261573792, 0.20418068766593933, 0.20717504620552063, 0.21090546250343323, 0.21571066975593567, 0.21701058745384216, 0.22684380412101746, 0.23874607682228088]]
+2025-04-14 14:34:03,247 - DEBUG - FAISS search results - indices: [[2204, 33, 2024, 224, 123, 242, 318, 228, 23, 204, 83]]
+2025-04-14 14:34:03,248 - DEBUG - Filtered result_product_ids: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:34:03,249 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:03,250 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:03,251 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:03,253 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:03,254 - DEBUG - Checking product_id 273029857 in DataFrame
+2025-04-14 14:34:03,255 - DEBUG - Added product 273029857 to similar_products
+2025-04-14 14:34:03,256 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:34:03,258 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:34:03,259 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:03,261 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:03,261 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:03,264 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:03,264 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:03,266 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:03,267 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:03,268 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:03,269 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:03,271 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:03,271 - DEBUG - Checking product_id 273610105 in DataFrame
+2025-04-14 14:34:03,273 - DEBUG - Added product 273610105 to similar_products
+2025-04-14 14:34:03,274 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:03,275 - DEBUG - Final similar_products: [273186334, 276250878, 273029857, 273636845, 272348047, 276274790, 276944892, 272328188, 274405521, 273610105]
+2025-04-14 14:34:03,275 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276250848 ---
+2025-04-14 14:34:03,276 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:03,278 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:03,286 - DEBUG - --- Completed request for /api/recommendations/276250848 ---
+2025-04-14 14:34:10,659 - DEBUG - --- Processing request for /api/recommendations/273029857 ---
+2025-04-14 14:34:10,659 - DEBUG - Limit set to: 10
+2025-04-14 14:34:10,660 - DEBUG - --- Starting get_similar_products_by_id for product_id: 273029857 ---
+2025-04-14 14:34:10,661 - DEBUG - Checking if product_id 273029857 exists in product_ids
+2025-04-14 14:34:10,661 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:10,662 - DEBUG - Fetching product details from Tiki API for product_id: 273029857
+2025-04-14 14:34:10,890 - DEBUG - Extracting product details
+2025-04-14 14:34:10,902 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:10,907 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:10,976 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:10,976 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:10,978 - DEBUG - FAISS search results - distances: [[1.4452309249519957e-13, 0.13922789692878723, 0.16818246245384216, 0.1776253581047058, 0.20491687953472137, 0.20841555297374725, 0.2103061079978943, 0.2209327220916748, 0.2226022481918335, 0.2318483591079712, 0.23520714044570923]]
+2025-04-14 14:34:10,980 - DEBUG - FAISS search results - indices: [[2024, 2204, 859, 2013, 228, 123, 33, 23, 224, 318, 242]]
+2025-04-14 14:34:10,980 - DEBUG - Filtered result_product_ids: [273186334, 272270730, 273185467, 272328188, 272348047, 276250878, 274405521, 273636845, 276944892, 276274790]
+2025-04-14 14:34:10,981 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:10,983 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:10,983 - DEBUG - Checking product_id 272270730 in DataFrame
+2025-04-14 14:34:10,985 - DEBUG - Added product 272270730 to similar_products
+2025-04-14 14:34:10,986 - DEBUG - Checking product_id 273185467 in DataFrame
+2025-04-14 14:34:10,987 - DEBUG - Added product 273185467 to similar_products
+2025-04-14 14:34:10,988 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:10,989 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:10,990 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:10,991 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:10,992 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:10,994 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:10,995 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:10,997 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:10,998 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:34:10,999 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:34:11,000 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:11,002 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:11,002 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:11,004 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:11,005 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:11,006 - DEBUG - Final similar_products: [273186334, 272270730, 273185467, 272328188, 272348047, 276250878, 274405521, 273636845, 276944892, 276274790]
+2025-04-14 14:34:11,007 - DEBUG - --- Completed get_similar_products_by_id for product_id: 273029857 ---
+2025-04-14 14:34:11,008 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:11,009 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:11,017 - DEBUG - --- Completed request for /api/recommendations/273029857 ---
+2025-04-14 14:34:11,022 - DEBUG - --- Processing request for /api/recommendations/273029857 ---
+2025-04-14 14:34:11,023 - DEBUG - Limit set to: 10
+2025-04-14 14:34:11,024 - DEBUG - --- Starting get_similar_products_by_id for product_id: 273029857 ---
+2025-04-14 14:34:11,025 - DEBUG - Checking if product_id 273029857 exists in product_ids
+2025-04-14 14:34:11,027 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:11,028 - DEBUG - Fetching product details from Tiki API for product_id: 273029857
+2025-04-14 14:34:11,384 - DEBUG - Extracting product details
+2025-04-14 14:34:11,398 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:11,402 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:11,488 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:11,488 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:11,490 - DEBUG - FAISS search results - distances: [[1.4452309249519957e-13, 0.13922789692878723, 0.16818246245384216, 0.1776253581047058, 0.20491687953472137, 0.20841555297374725, 0.2103061079978943, 0.2209327220916748, 0.2226022481918335, 0.2318483591079712, 0.23520714044570923]]
+2025-04-14 14:34:11,491 - DEBUG - FAISS search results - indices: [[2024, 2204, 859, 2013, 228, 123, 33, 23, 224, 318, 242]]
+2025-04-14 14:34:11,492 - DEBUG - Filtered result_product_ids: [273186334, 272270730, 273185467, 272328188, 272348047, 276250878, 274405521, 273636845, 276944892, 276274790]
+2025-04-14 14:34:11,493 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:11,495 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:11,496 - DEBUG - Checking product_id 272270730 in DataFrame
+2025-04-14 14:34:11,498 - DEBUG - Added product 272270730 to similar_products
+2025-04-14 14:34:11,499 - DEBUG - Checking product_id 273185467 in DataFrame
+2025-04-14 14:34:11,501 - DEBUG - Added product 273185467 to similar_products
+2025-04-14 14:34:11,502 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:11,504 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:11,505 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:11,507 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:11,508 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:11,510 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:11,510 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:11,513 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:11,514 - DEBUG - Checking product_id 273636845 in DataFrame
+2025-04-14 14:34:11,515 - DEBUG - Added product 273636845 to similar_products
+2025-04-14 14:34:11,516 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:11,518 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:11,519 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:11,520 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:11,521 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:11,522 - DEBUG - Final similar_products: [273186334, 272270730, 273185467, 272328188, 272348047, 276250878, 274405521, 273636845, 276944892, 276274790]
+2025-04-14 14:34:11,523 - DEBUG - --- Completed get_similar_products_by_id for product_id: 273029857 ---
+2025-04-14 14:34:11,523 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:11,524 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:11,531 - DEBUG - --- Completed request for /api/recommendations/273029857 ---
+2025-04-14 14:34:25,193 - DEBUG - --- Processing request for /api/recommendations/272348047 ---
+2025-04-14 14:34:25,194 - DEBUG - Limit set to: 10
+2025-04-14 14:34:25,195 - DEBUG - --- Starting get_similar_products_by_id for product_id: 272348047 ---
+2025-04-14 14:34:25,196 - DEBUG - Checking if product_id 272348047 exists in product_ids
+2025-04-14 14:34:25,197 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:25,199 - DEBUG - Fetching product details from Tiki API for product_id: 272348047
+2025-04-14 14:34:25,440 - DEBUG - Extracting product details
+2025-04-14 14:34:25,458 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:25,463 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:25,538 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:25,539 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:25,541 - DEBUG - FAISS search results - distances: [[1.4342963394666647e-13, 0.015570789575576782, 0.029496390372514725, 0.04906315356492996, 0.061989761888980865, 0.0629267692565918, 0.08717593550682068, 0.17413324117660522, 0.18362681567668915, 0.19785751402378082, 0.199163556098938]]
+2025-04-14 14:34:25,542 - DEBUG - FAISS search results - indices: [[123, 228, 242, 23, 315, 318, 213, 2204, 1353, 1265, 2545]]
+2025-04-14 14:34:25,543 - DEBUG - Filtered result_product_ids: [272328188, 276274790, 274405521, 276944868, 276944892, 277437876, 273186334, 277360329, 274156763, 276945332]
+2025-04-14 14:34:25,544 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:25,545 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:25,546 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:25,547 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:25,548 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:25,550 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:25,551 - DEBUG - Checking product_id 276944868 in DataFrame
+2025-04-14 14:34:25,553 - DEBUG - Added product 276944868 to similar_products
+2025-04-14 14:34:25,554 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:25,556 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:25,556 - DEBUG - Checking product_id 277437876 in DataFrame
+2025-04-14 14:34:25,558 - DEBUG - Added product 277437876 to similar_products
+2025-04-14 14:34:25,559 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:25,561 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:25,562 - DEBUG - Checking product_id 277360329 in DataFrame
+2025-04-14 14:34:25,564 - DEBUG - Added product 277360329 to similar_products
+2025-04-14 14:34:25,565 - DEBUG - Checking product_id 274156763 in DataFrame
+2025-04-14 14:34:25,566 - DEBUG - Added product 274156763 to similar_products
+2025-04-14 14:34:25,567 - DEBUG - Checking product_id 276945332 in DataFrame
+2025-04-14 14:34:25,569 - DEBUG - Added product 276945332 to similar_products
+2025-04-14 14:34:25,570 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:25,571 - DEBUG - Final similar_products: [272328188, 276274790, 274405521, 276944868, 276944892, 277437876, 273186334, 277360329, 274156763, 276945332]
+2025-04-14 14:34:25,571 - DEBUG - --- Completed get_similar_products_by_id for product_id: 272348047 ---
+2025-04-14 14:34:25,572 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:25,573 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:25,577 - DEBUG - --- Completed request for /api/recommendations/272348047 ---
+2025-04-14 14:34:25,582 - DEBUG - --- Processing request for /api/recommendations/272348047 ---
+2025-04-14 14:34:25,585 - DEBUG - Limit set to: 10
+2025-04-14 14:34:25,586 - DEBUG - --- Starting get_similar_products_by_id for product_id: 272348047 ---
+2025-04-14 14:34:25,587 - DEBUG - Checking if product_id 272348047 exists in product_ids
+2025-04-14 14:34:25,587 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:25,588 - DEBUG - Fetching product details from Tiki API for product_id: 272348047
+2025-04-14 14:34:25,940 - DEBUG - Extracting product details
+2025-04-14 14:34:25,955 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:25,961 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:26,025 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:26,026 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:26,028 - DEBUG - FAISS search results - distances: [[1.4342963394666647e-13, 0.015570789575576782, 0.029496390372514725, 0.04906315356492996, 0.061989761888980865, 0.0629267692565918, 0.08717593550682068, 0.17413324117660522, 0.18362681567668915, 0.19785751402378082, 0.199163556098938]]
+2025-04-14 14:34:26,029 - DEBUG - FAISS search results - indices: [[123, 228, 242, 23, 315, 318, 213, 2204, 1353, 1265, 2545]]
+2025-04-14 14:34:26,029 - DEBUG - Filtered result_product_ids: [272328188, 276274790, 274405521, 276944868, 276944892, 277437876, 273186334, 277360329, 274156763, 276945332]
+2025-04-14 14:34:26,030 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:26,033 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:26,034 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:26,036 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:26,037 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:26,039 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:26,039 - DEBUG - Checking product_id 276944868 in DataFrame
+2025-04-14 14:34:26,041 - DEBUG - Added product 276944868 to similar_products
+2025-04-14 14:34:26,042 - DEBUG - Checking product_id 276944892 in DataFrame
+2025-04-14 14:34:26,044 - DEBUG - Added product 276944892 to similar_products
+2025-04-14 14:34:26,044 - DEBUG - Checking product_id 277437876 in DataFrame
+2025-04-14 14:34:26,046 - DEBUG - Added product 277437876 to similar_products
+2025-04-14 14:34:26,046 - DEBUG - Checking product_id 273186334 in DataFrame
+2025-04-14 14:34:26,047 - DEBUG - Added product 273186334 to similar_products
+2025-04-14 14:34:26,048 - DEBUG - Checking product_id 277360329 in DataFrame
+2025-04-14 14:34:26,050 - DEBUG - Added product 277360329 to similar_products
+2025-04-14 14:34:26,051 - DEBUG - Checking product_id 274156763 in DataFrame
+2025-04-14 14:34:26,054 - DEBUG - Added product 274156763 to similar_products
+2025-04-14 14:34:26,055 - DEBUG - Checking product_id 276945332 in DataFrame
+2025-04-14 14:34:26,056 - DEBUG - Added product 276945332 to similar_products
+2025-04-14 14:34:26,057 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:26,057 - DEBUG - Final similar_products: [272328188, 276274790, 274405521, 276944868, 276944892, 277437876, 273186334, 277360329, 274156763, 276945332]
+2025-04-14 14:34:26,058 - DEBUG - --- Completed get_similar_products_by_id for product_id: 272348047 ---
+2025-04-14 14:34:26,059 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:26,059 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:26,063 - DEBUG - --- Completed request for /api/recommendations/272348047 ---
+2025-04-14 14:34:30,585 - DEBUG - --- Processing request for /api/recommendations/276944892 ---
+2025-04-14 14:34:30,587 - DEBUG - Limit set to: 10
+2025-04-14 14:34:30,588 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276944892 ---
+2025-04-14 14:34:30,589 - DEBUG - Checking if product_id 276944892 exists in product_ids
+2025-04-14 14:34:30,590 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:30,591 - DEBUG - Fetching product details from Tiki API for product_id: 276944892
+2025-04-14 14:34:31,288 - DEBUG - Extracting product details
+2025-04-14 14:34:31,297 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:31,302 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:31,373 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:31,374 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:31,377 - DEBUG - FAISS search results - distances: [[1.1909574617729318e-13, 0.03356482833623886, 0.05118638649582863, 0.06292673945426941, 0.06883507966995239, 0.07915368676185608, 0.1399085521697998, 0.2013041377067566, 0.20333516597747803, 0.20651915669441223, 0.20839110016822815]]
+2025-04-14 14:34:31,378 - DEBUG - FAISS search results - indices: [[318, 242, 228, 123, 315, 23, 213, 2616, 1426, 1304, 33]]
+2025-04-14 14:34:31,379 - DEBUG - Filtered result_product_ids: [276274790, 272328188, 272348047, 276944868, 274405521, 277437876, 277348490, 275386465, 277360073, 276250878]
+2025-04-14 14:34:31,380 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:31,382 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:31,382 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:31,385 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:31,386 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:31,388 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:31,389 - DEBUG - Checking product_id 276944868 in DataFrame
+2025-04-14 14:34:31,392 - DEBUG - Added product 276944868 to similar_products
+2025-04-14 14:34:31,394 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:31,396 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:31,397 - DEBUG - Checking product_id 277437876 in DataFrame
+2025-04-14 14:34:31,398 - DEBUG - Added product 277437876 to similar_products
+2025-04-14 14:34:31,399 - DEBUG - Checking product_id 277348490 in DataFrame
+2025-04-14 14:34:31,401 - DEBUG - Added product 277348490 to similar_products
+2025-04-14 14:34:31,402 - DEBUG - Checking product_id 275386465 in DataFrame
+2025-04-14 14:34:31,404 - DEBUG - Added product 275386465 to similar_products
+2025-04-14 14:34:31,405 - DEBUG - Checking product_id 277360073 in DataFrame
+2025-04-14 14:34:31,407 - DEBUG - Added product 277360073 to similar_products
+2025-04-14 14:34:31,408 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:31,410 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:31,411 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:31,412 - DEBUG - Final similar_products: [276274790, 272328188, 272348047, 276944868, 274405521, 277437876, 277348490, 275386465, 277360073, 276250878]
+2025-04-14 14:34:31,413 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276944892 ---
+2025-04-14 14:34:31,414 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:31,415 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:31,422 - DEBUG - --- Completed request for /api/recommendations/276944892 ---
+2025-04-14 14:34:31,428 - DEBUG - --- Processing request for /api/recommendations/276944892 ---
+2025-04-14 14:34:31,430 - DEBUG - Limit set to: 10
+2025-04-14 14:34:31,431 - DEBUG - --- Starting get_similar_products_by_id for product_id: 276944892 ---
+2025-04-14 14:34:31,431 - DEBUG - Checking if product_id 276944892 exists in product_ids
+2025-04-14 14:34:31,432 - DEBUG - Product_id exists in vector database: True
+2025-04-14 14:34:31,433 - DEBUG - Fetching product details from Tiki API for product_id: 276944892
+2025-04-14 14:34:31,830 - DEBUG - Extracting product details
+2025-04-14 14:34:31,845 - DEBUG - Brand_name: Samsung
+2025-04-14 14:34:31,850 - DEBUG - Encoding combined text to embedding
+2025-04-14 14:34:31,933 - DEBUG - Query embedding shape: (1, 384)
+2025-04-14 14:34:31,934 - DEBUG - Searching FAISS index with top_k: 11
+2025-04-14 14:34:31,937 - DEBUG - FAISS search results - distances: [[1.1909574617729318e-13, 0.03356482833623886, 0.05118638649582863, 0.06292673945426941, 0.06883507966995239, 0.07915368676185608, 0.1399085521697998, 0.2013041377067566, 0.20333516597747803, 0.20651915669441223, 0.20839110016822815]]
+2025-04-14 14:34:31,937 - DEBUG - FAISS search results - indices: [[318, 242, 228, 123, 315, 23, 213, 2616, 1426, 1304, 33]]
+2025-04-14 14:34:31,938 - DEBUG - Filtered result_product_ids: [276274790, 272328188, 272348047, 276944868, 274405521, 277437876, 277348490, 275386465, 277360073, 276250878]
+2025-04-14 14:34:31,940 - DEBUG - Checking product_id 276274790 in DataFrame
+2025-04-14 14:34:31,942 - DEBUG - Added product 276274790 to similar_products
+2025-04-14 14:34:31,943 - DEBUG - Checking product_id 272328188 in DataFrame
+2025-04-14 14:34:31,946 - DEBUG - Added product 272328188 to similar_products
+2025-04-14 14:34:31,947 - DEBUG - Checking product_id 272348047 in DataFrame
+2025-04-14 14:34:31,949 - DEBUG - Added product 272348047 to similar_products
+2025-04-14 14:34:31,950 - DEBUG - Checking product_id 276944868 in DataFrame
+2025-04-14 14:34:31,952 - DEBUG - Added product 276944868 to similar_products
+2025-04-14 14:34:31,953 - DEBUG - Checking product_id 274405521 in DataFrame
+2025-04-14 14:34:31,956 - DEBUG - Added product 274405521 to similar_products
+2025-04-14 14:34:31,956 - DEBUG - Checking product_id 277437876 in DataFrame
+2025-04-14 14:34:31,959 - DEBUG - Added product 277437876 to similar_products
+2025-04-14 14:34:31,960 - DEBUG - Checking product_id 277348490 in DataFrame
+2025-04-14 14:34:31,961 - DEBUG - Added product 277348490 to similar_products
+2025-04-14 14:34:31,962 - DEBUG - Checking product_id 275386465 in DataFrame
+2025-04-14 14:34:31,964 - DEBUG - Added product 275386465 to similar_products
+2025-04-14 14:34:31,965 - DEBUG - Checking product_id 277360073 in DataFrame
+2025-04-14 14:34:31,967 - DEBUG - Added product 277360073 to similar_products
+2025-04-14 14:34:31,968 - DEBUG - Checking product_id 276250878 in DataFrame
+2025-04-14 14:34:31,970 - DEBUG - Added product 276250878 to similar_products
+2025-04-14 14:34:31,971 - DEBUG - Final similar_products count: 10
+2025-04-14 14:34:31,972 - DEBUG - Final similar_products: [276274790, 272328188, 272348047, 276944868, 274405521, 277437876, 277348490, 275386465, 277360073, 276250878]
+2025-04-14 14:34:31,973 - DEBUG - --- Completed get_similar_products_by_id for product_id: 276944892 ---
+2025-04-14 14:34:31,973 - DEBUG - get_similar_products_by_id returned 10 products
+2025-04-14 14:34:31,974 - DEBUG - Preparing response with similar products
+2025-04-14 14:34:31,979 - DEBUG - --- Completed request for /api/recommendations/276944892 ---

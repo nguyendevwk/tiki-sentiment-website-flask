@@ -35,6 +35,7 @@ function loadProductDetails(productId) {
     fetch(`${apiBaseUrl}/product/${productId}`)
         .then((response) => response.json())
         .then((data) => {
+            loadRecommendations(productId);
             if (data.error) {
                 throw new Error(data.error);
             }
@@ -42,6 +43,7 @@ function loadProductDetails(productId) {
             renderProductDetails(data);
         })
         .catch((error) => {
+
             document
                 .getElementById("modalLoading")
                 .classList.add("d-none");
