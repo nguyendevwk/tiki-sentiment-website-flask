@@ -106,32 +106,132 @@ body {
     height: 300px;
 }
 
+
+/* Recommendation scroll container */
 .recommendation-scroll {
+    display: flex;
     overflow-x: auto;
-    white-space: nowrap;
-    padding-bottom: 15px;
+    padding: 10px 0;
+    scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    /* Hỗ trợ cuộn mượt trên iOS */
 }
 
-.recommendation-scroll .card {
-    display: inline-block;
-    width: 180px;
-    margin-right: 15px;
-    white-space: normal;
+/* Tùy chỉnh thanh cuộn trên desktop */
+.recommendation-scroll::-webkit-scrollbar {
+    height: 8px;
 }
 
-.recommendation-scroll .product-image {
-    height: 150px;
+.recommendation-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
 }
 
-/* Custom progress bar colors */
-.progress-bar-positive {
-    background-color: var(--positive);
+.recommendation-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
 }
 
-.progress-bar-neutral {
-    background-color: var(--neutral);
+.recommendation-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
-.progress-bar-negative {
+/* Recommendation card */
+.recommendation-card {
+    flex: 0 0 220px;
+    /* Chiều rộng cố định */
+    margin: 0 20px;
+    /* Tăng khoảng cách giữa các card */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    scroll-snap-align: start;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    /* Đảm bảo nội dung không tràn */
+    overflow: hidden;
+    /* Ẩn nội dung tràn ra ngoài */
+}
+
+.recommendation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-card .card-img-top {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.recommendation-card img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.recommendation-card .card-body {
+    padding: 10px;
+}
+
+.recommendation-card .product-name {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    height: 40px;
+}
+
+.recommendation-card .product-price {
+    font-size: 1rem;
+    color: var(--negative);
+}
+
+.recommendation-card .current-price {
+    font-weight: bold;
+}
+
+.recommendation-card .original-price {
+    font-size: 0.85rem;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.recommendation-card .discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     background-color: var(--negative);
+    color: white;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    border-radius: 3px;
 }
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .recommendation-card {
+        flex: 0 0 160px;
+        margin-right: 10px;
+    }
+
+    .recommendation-card .card-img-top {
+        height: 120px;
+    }
+
+    .recommendation-card .product-name {
+        font-size: 0.85rem;
+        height: 36px;
+    }
+}
+
+/* Xóa style cũ gây xung đột */
+.recommendation-scroll .card {
+    display: unset;
+    width: unset;
+    margin-right: unset;
+    white-space: unset;
+}
+
