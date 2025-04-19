@@ -6,7 +6,7 @@ class SentimentService:
     def __init__(self, models):
         self.models = models
 
-    def analyze_sentiment(self, text):
+    def analyze_sentiment_all_models(self, text):
         """Analyze sentiment using all available models"""
         results = {}
 
@@ -109,6 +109,96 @@ class SentimentService:
             }
 
             results["overall_sentiment"] = overall_sentiment
+            results["sentiment_percentages"] = sentiment_percentages
+
+        except Exception as e:
+            results["error"] = str(e)
+
+        return results
+
+    def analyze_sentiment(self, text):
+        """Analyze sentiment using all models, but final summary uses only LSTM"""
+        results = {}
+
+        try:
+            # Preprocessing for traditional models
+            tfidf_vector = self.models['tfidf'].transform([text])
+
+            # Naive Bayes
+            nb_pred = self.models['nb_model'].predict(tfidf_vector)[0]
+            nb_proba = self.models['nb_model'].predict_proba(tfidf_vector)[0]
+            nb_confidence = float(np.max(nb_proba) * 100)
+            nb_label = self.models['label_encoder'].inverse_transform([nb_pred])[0]
+
+            # SVM
+            svm_pred = self.models['svm_model'].predict(tfidf_vector)[0]
+            svm_label = self.models['label_encoder'].inverse_transform([svm_pred])[0]
+
+            # SVC
+            svc_pred = self.models['svc_model'].predict(tfidf_vector)[0]
+            svc_label = self.models['label_encoder'].inverse_transform([svc_pred])[0]
+            svc_confidence = (
+                float(np.max(self.models['svc_model'].predict_proba(tfidf_vector)[0]) * 100)
+                if hasattr(self.models['svc_model'], "predict_proba")
+                else None
+            )
+
+            # Label mapping (tiếng Việt)
+            label_map = {
+                "positive": "Tích cực",
+                "neutral": "Trung lập",
+                "negative": "Tiêu cực"
+            }
+            nb_label = label_map.get(nb_label, nb_label)
+            svm_label = label_map.get(svm_label, svm_label)
+            svc_label = label_map.get(svc_label, svc_label)
+
+            # Deep learning (LSTM)
+            sequence = self.models['tokenizer'].texts_to_sequences([text])
+            padded = pad_sequences(sequence, maxlen=MAX_LEN, padding='post', truncating='post')
+            deep_pred_proba = self.models['deep_model'].predict(padded)[0]
+            deep_pred = np.argmax(deep_pred_proba)
+            deep_confidence = float(deep_pred_proba[deep_pred] * 100)
+
+            deep_label_map = {0: "Tiêu cực", 1: "Trung lập", 2: "Tích cực"}
+            deep_label = deep_label_map.get(deep_pred, "Trung lập")
+
+            # Gộp kết quả của tất cả mô hình
+            results["models"] = {
+                "naive_bayes": {
+                    "label": nb_label,
+                    "confidence": nb_confidence
+                },
+                "svm": {
+                    "label": svm_label,
+                    "confidence": None
+                },
+                "svc": {
+                    "label": svc_label,
+                    "confidence": svc_confidence
+                },
+                "deep_learning": {
+                    "label": deep_label,
+                    "confidence": deep_confidence
+                }
+            }
+
+            # === Chỉ dùng mô hình LSTM để xác định kết quả tổng hợp ===
+
+            # Map lại tiếng Việt -> tiếng Anh
+            sentiment_label_map = {
+                "Tiêu cực": "negative",
+                "Trung lập": "neutral",
+                "Tích cực": "positive"
+            }
+
+            sentiment_percentages = {
+                "negative": float(deep_pred_proba[0] * 100),
+                "neutral": float(deep_pred_proba[1] * 100),
+                "positive": float(deep_pred_proba[2] * 100)
+            }
+
+            results["overall_sentiment"] = sentiment_label_map.get(deep_label, "neutral")
             results["sentiment_percentages"] = sentiment_percentages
 
         except Exception as e:
